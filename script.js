@@ -16,3 +16,6 @@ if( età < 18 ) {
 }else{
     prezzobiglietto = (prezzobiglietto * km)
 }
+
+// output
+console.log(`il prezzo del tuo biglietto è ${prezzobiglietto.toFixed(2)}`)
